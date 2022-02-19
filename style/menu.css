@@ -10,7 +10,8 @@
     justify-content: space-between;
     align-items: center;
     max-height: 100vh;
-    width: 80px;
+    width: 5.555555vw;
+    min-width: 80px;
     border-right: 1px solid #F4F3F3;
 }
 

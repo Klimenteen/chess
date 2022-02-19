@@ -8,6 +8,16 @@
     src: url("../assets/fonts/Akrobat-SemiBold.otf") format("opentype");
 }
 
+@font-face {
+    font-family: AkrobatRegular;
+    src: url("../assets/fonts/Akrobat-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Soviet;
+    src: url("../assets/fonts/Neue_soviet.ttf") format("opentype");
+}
+
 button {
     background-color: none;
     background: none;
