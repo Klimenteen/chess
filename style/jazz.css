@@ -7,68 +7,13 @@
     width: 100vw;
 }
 
+.jazz-content {
+    height: 100vh;
+    ;
+}
+
 .jazz-cont .nav-container {
     height: 100vh;
-}
-
-.chess-button {
-    background: #F4F3F3;
-    height: 2.77777vw;
-    min-width: 40px;
-    transform: rotate(-90deg);
-    /* position: absolute; */
-    right: 0;
-    top: 0;
-    display: flex;
-    white-space: nowrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.jazz-content {
-    /* padding-top: 40px; */
-    height: 45vh;
-    width: calc(100vw - 2.77777vw - 5.555555vw);
-}
-
-
-/* .chess-button */
-
-.chess-button__content {
-    color: #101010;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.chess-button__content img {
-    margin: 0 20px 0 20px;
-    top: 50%;
-}
-
-.chess-button2 {
-    width: 2.77777vw;
-    min-width: 40px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    background: #F4F3F3;
-}
-
-.chess-button__content2 {
-    padding: 0 20px 0 20px;
-    margin: 0 20px 0 20px;
-    transform: rotate(-90deg);
-    color: #101010;
-    display: flex;
-    align-items: center;
-    font-family: AkrobatRegular;
-    line-height: 90%;
-    font-size: 12px;
-    /* justify-content: space-between; */
 }
 
 .jazz-content__top {
@@ -80,7 +25,7 @@
 .jazz-right {
     height: 45vh;
     position: relative;
-    width: calc(100vw - (100vw - 2.77777vw - 5.555555vw - 320px));
+    width: 320px;
 }
 
 .jazz__sponsor {
@@ -89,14 +34,10 @@
     text-align: right;
     position: absolute;
     bottom: 50px;
-    right: 70px;
+    right: 40px;
     font-family: 'AkrobatBold';
     font-size: 12px;
     color: #989898;
-}
-
-.jazz-right .buy-ticket {
-    right: 70px;
 }
 
 .jazz-right .marquee-w {
@@ -104,171 +45,27 @@
     transform: translate(0, 0);
 }
 
-.jazz-marquee-w {
-    position: relative;
-    display: block;
-    width: calc(100vw - 2.77777vw - 5.555555vw - 320px);
-    height: 45vh;
-    overflow: hidden;
-}
-
-.jazz-marquee {
-    position: absolute;
-    display: block;
-    margin: auto auto;
-    white-space: nowrap;
-    overflow: hidden;
-    min-width: 100%;
-    height: 100%;
-}
-
-.jazz-marquee span {
-    display: inline-block;
-    padding-left: 100%;
-    font-family: 'Soviet';
-    text-align: center;
-    color: #F4F3F3;
-    white-space: nowrap;
-    min-width: 100%;
-    height: 100%;
-    font-size: 380px;
-    animation: marquee 20s linear infinite;
-}
-
-.jazz-marquee2 span {
-    animation-delay: 10s;
-}
-
-@keyframes marquee {
-    0% {
-        transform: translate(0, 0);
-    }
-    100% {
-        transform: translate(-100%, 0);
-    }
-}
-
 
 /* ========================bot part======================== */
 
 .jazz-content__bot {
     height: 55vh;
-    position: relative;
-    /* bottom: -5vh; */
-}
-
-.jazz__cards {
-    display: flex;
-    vertical-align: bottom;
-}
-
-.jazz__card {
-    width: calc((100vw - 2.77777vw - 5.555555vw) / 6);
-    height: calc((100vw - 2.77777vw - 5.555555vw) / 6);
-}
-
-.jazz__card-popup {
-    box-sizing: border-box;
-    padding: 20px 20px 20px 20px;
-    display: flex;
-    flex-direction: column;
-    background: #F4F3F3;
-    position: absolute;
-    width: calc((100vw - 2.77777vw - 5.555555vw) / 6);
-    height: calc((100vw - 2.77777vw - 5.555555vw) / 6);
-}
-
-.jazz__card-top {
-    height: 50%;
-    display: flex;
-    align-items: top;
-    justify-content: space-between;
-}
-
-.jazz__card-date {
-    font-size: 20px;
-    line-height: 24px;
-    font-family: AkrobatSemiBold;
-}
-
-.jazz__card-bot {
-    height: 50%;
-    font-family: 'Soviet';
-    font-size: 92px;
-    line-height: 94%;
-    white-space: nowrap;
-}
-
-
-/* .jazz-right .marquee-w {
-    height: 36px;
-    transform: translate(0, 0);
-} */
-
-.card-bot-marquee-w {
-    position: relative;
-    display: block;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-
-.card-bot-marquee {
-    position: absolute;
-    display: block;
-    margin: auto auto;
-    white-space: nowrap;
-    overflow: hidden;
-    min-width: 100%;
-    height: 100%;
-}
-
-.card-bot-marquee span {
-    display: inline-block;
-    padding-left: 100%;
-    font-family: 'Soviet';
-    text-align: center;
-    color: #101010;
-    white-space: nowrap;
-    min-width: 100%;
-    height: 100%;
-    font-size: 93px;
-    animation: marquee 10s linear infinite;
-    animation-delay: .5s;
-}
-
-.card-bot-marquee2 span {
-    animation-delay: 5s;
-}
-
-@keyframes marquee {
-    0% {
-        transform: translate(0, 0);
-    }
-    100% {
-        transform: translate(-100%, 0);
-    }
-}
-
-.jazz__card img {
-    width: calc((100vw - 2.77777vw - 5.555555vw) / 6);
-    height: calc((100vw - 2.77777vw - 5.555555vw) / 6);
-    object-fit: cover;
-}
-
-.jazz__card-arrow img {
-    cursor: pointer;
-    width: 40px;
-    height: 40px;
-}
-
-.jazz__card-arrow {
-    width: 40px;
-    height: 40px;
 }
 
 @media screen and (max-width:1200px) {
     .card-bot-marquee span {
         font-size: 80px;
+    }
+}
+
+@media screen and (max-height:699px) {
+    .jazz-marquee span {
+        font-size: 300px;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .card-bot-marquee-w {
+        height: 80px;
     }
 }
