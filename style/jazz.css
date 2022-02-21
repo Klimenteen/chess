@@ -9,7 +9,6 @@
 
 .jazz-content {
     height: 100vh;
-    ;
 }
 
 .jazz-cont .nav-container {
@@ -42,6 +41,7 @@
 
 .jazz-right .marquee-w {
     height: 36px;
+    padding: 10px 0 0 0;
     transform: translate(0, 0);
 }
 

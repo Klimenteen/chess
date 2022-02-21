@@ -33,6 +33,7 @@
 }
 
 .marquee {
+    padding: 0 0 0 5px;
     position: absolute;
     display: block;
     align-items: center;
