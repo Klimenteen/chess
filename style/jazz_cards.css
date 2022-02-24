@@ -101,3 +101,12 @@
     width: 40px;
     height: 40px;
 }
+
+.jazz-content__bot-absolute {
+    position: relative;
+}
+
+.all_cards {
+    position: absolute;
+    bottom: 0;
+}
