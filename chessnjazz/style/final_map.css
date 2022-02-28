@@ -1,0 +1,28 @@
+.final_map {
+    padding-top: 10px;
+    border-top: 1px solid #F4F3F3;
+    height: 380px;
+    width: 980px;
+    margin-left: 40px;
+}
+
+@media screen and (max-width:1300px) {
+    .final_map iframe {
+        width: 850px;
+    }
+    .final_map {
+        width: 850px;
+    }
+}
+
+@media screen and (max-width:1156px) {
+    .final_map iframe {
+        width: 650px;
+    }
+    .final_map {
+        width: 650px;
+    }
+    .final-content .jazz-right {
+        width: 240px;
+    }
+}
