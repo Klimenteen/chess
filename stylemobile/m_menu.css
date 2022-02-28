@@ -73,7 +73,7 @@
         transform: rotate(0deg);
     }
     100% {
-        transform: rotate(45deg) translateY(3px) translateX(8px);
+        transform: rotate(35deg) translateY(4px) translateX(8px);
         /* content: url('../assets/icons/blhamb.svg'); */
     }
 }
@@ -91,7 +91,7 @@
         transform: rotate(0deg);
     }
     100% {
-        transform: rotate(-45deg) translateY(-3px) translateX(8px);
+        transform: rotate(-35deg) translateY(-4px) translateX(9px);
         /* content: url('../assets/icons/blhamb.svg'); */
     }
 }
