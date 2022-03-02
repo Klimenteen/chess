@@ -8,6 +8,10 @@
     font-size: 160px;
 }
 
+.jazz-marquee.jazz-marquee_white span {
+    color: #101010;
+}
+
 @media screen and (min-width:600px) {
     .m-content .jazz-marquee-w {
         height: 200px;

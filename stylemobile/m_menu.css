@@ -140,6 +140,69 @@
     }
 }
 
+
+/* ===========================адаптация под светлый============================ */
+
+.mobile-container_white .m-menu__btn {
+    border-right: 1px solid #BEBEBE;
+    border-bottom: 1px solid #BEBEBE;
+}
+
+.mobile-container_white .m-menu__content {
+    border-right: 1px solid #BEBEBE;
+    border-bottom: 1px solid #BEBEBE;
+}
+
+.m__btn_bot.m__btn_bot_white,
+.m__btn_middle.m__btn_middle_white,
+.m__btn_top.m__btn_top_white {
+    content: url('../assets/icons/blhamb.svg');
+}
+
+@keyframes btn_top_white {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(35deg) translateY(4px) translateX(8px);
+        /*     content: url('../assets/icons/hamb.svg');*/
+    }
+}
+
+@keyframes btn_middle_white {
+    100% {
+        transform: translateX(10px);
+        opacity: 0;
+        /*     content: url('../assets/icons/hamb.svg');*/
+    }
+}
+
+@keyframes btn_bot_white {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(-35deg) translateY(-4px) translateX(9px);
+        /*     content: url('../assets/icons/hamb.svg');*/
+    }
+}
+
+.m-menu__content.m-menu__content_white span {
+    color: #101010;
+}
+
+.m-menu__btn:hover .m__btn_bot_white {
+    animation: btn_bot_white 1s forwards;
+}
+
+.m-menu__btn:hover .m__btn_middle_white {
+    animation: btn_middle_white 1s forwards;
+}
+
+.m-menu__btn:hover .m__btn_top_white {
+    animation: btn_top_white 1s forwards;
+}
+
 .m-menu__content img:nth-child(4),
 .m-menu__content span:nth-child(5),
 .m-menu__content img:nth-child(6),

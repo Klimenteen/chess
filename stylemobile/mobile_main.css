@@ -4,3 +4,7 @@
     background: #101010;
     min-height: 100vh;
 }
+
+.mobile-container.mobile-container_white {
+    background-color: #F4F3F3;
+}
