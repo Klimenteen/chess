@@ -1,0 +1,73 @@
+.m_header {
+    font-size: 160px;
+    font-family: 'Soviet';
+    color: #F4F3F3;
+    margin-top: 10px;
+    text-align: center;
+    height: 144px;
+}
+
+.m_map {
+    padding: 10px 0;
+    border-top: 1px solid #F4F3F3;
+    border-bottom: 1px solid #F4F3F3;
+}
+
+.m_map iframe {
+    width: 100%;
+}
+
+
+/* ===============================footer content=============================== */
+
+.m_socials-content {
+    padding: 25px 15px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    box-sizing: border-box;
+}
+
+.m_socials-place {
+    margin-bottom: 43px;
+}
+
+.m_socials-place p {
+    font-family: 'AkrobatRegular';
+    font-size: 14px;
+    line-height: 145%;
+    margin: 0;
+    color: #F4F3F3;
+}
+
+.m_socials_mail {
+    font-family: 'AkrobatRegular';
+    font-size: 16px;
+    line-height: 120%;
+    color: #F4F3F3;
+    color: #F4F3F3;
+    text-decoration: underline;
+    margin-bottom: 43px;
+    text-align: end;
+}
+
+.m_socials-copy {
+    color: #F4F3F3;
+    font-family: 'AkrobatRegular';
+    font-size: 14px;
+    line-height: 145%;
+    color: #F4F3F3;
+}
+
+.m_socials-icons {
+    color: #F4F3F3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+}
+
+.m_socials-icons .socials__btn img {
+    width: 40px;
+    height: 40px;
+}
