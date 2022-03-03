@@ -1,4 +1,4 @@
-.m_header {
+.m_header_final {
     font-size: 160px;
     font-family: 'Soviet';
     color: #F4F3F3;
@@ -70,4 +70,21 @@
 .m_socials-icons .socials__btn img {
     width: 40px;
     height: 40px;
+}
+
+@media screen and (min-width:480px) {
+    .m_socials-copy {
+        font-size: 18px;
+    }
+    .m_socials_mail {
+        font-size: 20px;
+    }
+    .m_socials-place p {
+        font-size: 18px;
+    }
+    /* чтобы страница не превышала 100vh можно закоментить то что снизу =)) */
+    .m_header_final {
+        font-size: 200px;
+        height: 180px;
+    }
 }
