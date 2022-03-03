@@ -1,10 +1,12 @@
 .m_header_final {
-    font-size: 160px;
+    font-size: 150px;
     font-family: 'Soviet';
     color: #F4F3F3;
     margin-top: 10px;
     text-align: center;
     height: 144px;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .m_map {
@@ -86,5 +88,11 @@
     .m_header_final {
         font-size: 200px;
         height: 180px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .m_header_final {
+        font-size: 130px;
     }
 }
